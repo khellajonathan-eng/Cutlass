@@ -2,9 +2,18 @@
 Cutlass is a Python game engine focused on procedural map generation and room-based games
 
 ## Getting Sarted
+To use this script for its bare minimum, you can do the following.
+```py
+MyMap = Map("My Map")
+MyMap.generaterooms()
+#the default generation process executes
+while True:
+  Map.Room.diffroom()
+```
+This creates the map, generates the rooms and starts the movement system.
 
 ## Version
-1.1.2.2 - Beta
+1.1.3.0 - Beta
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
 ## Features
@@ -165,7 +174,7 @@ It uses a four-part Versioning system.
 REVAMP.MAJOR.MINOR.PATCH
 or as I like to call it
 REAL HUGE.BIGBUTNOTHUGE.PRETTYSMALLBUTSTILLWORTHNOTING.OKAYTHISISREALSMALL
-Cutlass is in 1.1.2.2
+Cutlass is in 1.1.3.0
 
 ## Why Cutlass?
 It is a procedural map generator that could be used for many things.
