@@ -96,6 +96,15 @@ Example:
 testmap.generaterooms(mode="grid")
 #this now has a grid room generation type in testmap.lor, but unlike all the other modes, it uses attributes from those rooms.
 ```
+### Unified
+Note: Any modes after this one will not be included. This list includes these modes but may not be limited to them.
+Creates random generation but with guaranteed connectivity.
+
+Example:
+```python
+testmap.generaterooms(mode="unified")
+#this now has a unified generation type in testmap.lor
+```
 
 ### Generation Mode Submodes
 Every mode has generation **Submodes** which can define how it is generated.
