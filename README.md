@@ -19,7 +19,7 @@ Demo()
 that's it!
 
 ## Version
-1.2.0.0 - Beta
+1.2.1.0 - Beta
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
 ## Features
@@ -180,7 +180,7 @@ It uses a four-part Versioning system.
 REVAMP.MAJOR.MINOR.PATCH
 or as I like to call it
 REAL HUGE.BIGBUTNOTHUGE.PRETTYSMALLBUTSTILLWORTHNOTING.OKAYTHISISREALSMALL
-Cutlass is in 1.2.0.0
+Cutlass is in 1.2.1.0
 
 ## Why Cutlass?
 It is a procedural map generator that could be used for many things.
