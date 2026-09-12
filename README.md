@@ -20,6 +20,7 @@ that's it!
 
 ## Version
 1.2.4.0 - Beta
+
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
 ## Features
@@ -38,6 +39,7 @@ Cutlass currently supports **5** generation modes
 
 #### Syntaxxing
 The `generaterooms` command has its syntax going like this.
+
 Note: This will only show the *necessary* Syntaxxing for generation. If you want to have other features such as `mode` or `loot`, please go down to the paragraph after the modes.
 
 ```py
