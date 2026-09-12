@@ -25,13 +25,19 @@ Note:  I know there is version and versioning, but here I'm outright telling you
 
 ## Features
 Procedural Map Generation
+
 Room-Based navigation
+
 Room and Global Events
+
 Multiple Generation modes
+
 Pathfinding
+
 Player inventory and credits
-Mod loading and API
-`.cutl` files for save files and optional for mod files
+
+Mod loading and API `.cutl` files for save files and optional for mod files
+
 Custom error handling
 
 ## Generation Modes
