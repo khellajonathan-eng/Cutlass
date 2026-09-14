@@ -19,7 +19,7 @@ Demo()
 that's it!
 
 ## Version
-1.2.4.0 - Beta
+1.3.0 - Beta
 
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
