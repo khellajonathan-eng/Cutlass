@@ -193,11 +193,11 @@ OKAY, SERIOUSLY IMPORTANT NOTE: Just because it has a security check does **NOT*
 This is a solo project.
 Mr. Created Everything: airbreather5277 aka mynameisajoke
 ## Versioning
-It uses a four-part Versioning system.
-REVAMP.MAJOR.MINOR.PATCH
+It uses a three-part Versioning system.
+MINOR.MINOR.PATCH
 or as I like to call it
-REAL HUGE.BIGBUTNOTHUGE.PRETTYSMALLBUTSTILLWORTHNOTING.OKAYTHISISREALSMALL
-Cutlass is in 1.2.4.0
+REALHUGE.BIGBUTNOTHUGE.PRETTYSMALLBUTSTILLWORTHNOTING
+Cutlass is in 1.3.0
 
 ## Why Cutlass?
 It is a procedural map generator that could be used for many things.
