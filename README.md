@@ -19,7 +19,7 @@ Demo()
 that's it!
 
 ## Version
-1.3.0 - Beta
+1.3.1 - Beta
 
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
@@ -197,7 +197,7 @@ It uses a three-part Versioning system.
 MINOR.MINOR.PATCH
 or as I like to call it
 REALHUGE.BIGBUTNOTHUGE.PRETTYSMALLBUTSTILLWORTHNOTING
-Cutlass is in 1.3.0
+Cutlass is in 1.3.1
 
 ## Why Cutlass?
 It is a procedural map generator that could be used for many things.
