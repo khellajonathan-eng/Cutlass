@@ -19,7 +19,7 @@ Demo()
 that's it!
 
 ## Version
-1.5.0 - Beta
+1.7.1 - Beta
 
 Note:  I know there is version and versioning, but here I'm outright telling you the version without anything else.
 
@@ -49,8 +49,8 @@ The `generaterooms` command has its syntax going like this.
 Note: This will only show the *necessary* Syntaxxing for generation. If you want to have other features such as `mode` or `loot`, please go down to the paragraph after the modes.
 
 ```py
-import Cutlass
-testmap = Cutlass.Map("Test Map")
+import cutlass
+testmap = cutlass.Map("Test Map")
 testmap.generaterooms(2, "room a", "room b", "room c", "room d", "room e")
 #generaterooms(exits, rooms, options)
 ```
@@ -60,8 +60,8 @@ Default random-based generation. Connects rooms at random.
 
 Example:
 ```python
-import Cutlass
-testmap = Cutlass.Map("Test Map")
+import cutlass
+testmap = cutlass.Map("Test Map")
 testmap.generaterooms(2, "room a", "room b", "room c", "room d", "room e")
 #the command naturally defaults to default mode.
 ```
