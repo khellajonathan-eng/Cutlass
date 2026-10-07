@@ -1819,7 +1819,7 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                             print(t)
                             tlogs[(command)] = (t, finished)
                         except Exception as e:
-                            raise
+                            #raise
                             Error.error(f"Error 8: {repr(e)}", errtype="Unknown")
                 case ["quit"]:
                     self.running = False
