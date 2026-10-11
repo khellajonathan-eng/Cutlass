@@ -1,6 +1,6 @@
 import random, sys, time, ast, os, pickle, threading, shlex, builtins, inspect
 from copy import deepcopy
-v2 = "None." #x.x.V.x
+v2 = "Fixed a tiny bug." #x.x.V.x
 v3 = "Increased the terminal's usability and flexibility largely. Again. Please note that updates regarding the terminal will not be shown here anymore, only inside the terminal itself." #x.V.x.x
 v4 = "Now in beta testing."#V.x.x.x
 vs = [v2, v3, v4][::-1]
@@ -1318,7 +1318,7 @@ class Map:
 class System:
     """The system for general management."""
     name = "Cutlass"
-    version = "1.8.0"
+    version = "1.8.1"
     state = "Beta"
     @classmethod
     def credits(cls):
@@ -1794,7 +1794,7 @@ class Demo:
                             if command.strip() == "--getitem":
                                 location = int(finished[1])
                                 oflist = finished[0]
-                                namespace[1][oflist] = namespace[0][oflist][location]
+                                namespace[1][oflist] = namespace[1][oflist][location]
                                 continue
                             if command.strip() == "--print":
                                 print(*finished)
