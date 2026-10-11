@@ -1,6 +1,6 @@
 import random, sys, time, ast, os, pickle, threading, shlex, builtins, inspect
 from copy import deepcopy
-v2 = "Fixed a tiny bug." #x.x.V.x
+v2 = "Removed a debug statement." #x.x.V.x
 v3 = "Increased the terminal's usability and flexibility largely. Again. Please note that updates regarding the terminal will not be shown here anymore, only inside the terminal itself." #x.V.x.x
 v4 = "Now in beta testing."#V.x.x.x
 vs = [v2, v3, v4][::-1]
@@ -1318,7 +1318,7 @@ class Map:
 class System:
     """The system for general management."""
     name = "Cutlass"
-    version = "1.8.1"
+    version = "1.8.2"
     state = "Beta"
     @classmethod
     def credits(cls):
@@ -1851,12 +1851,9 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                                 print("The next command will only run if the condition is True.")
                                 continue
                             if command.strip() == "--ns.":
-                                print("ns")
                                 if len(finished) > 2:
                                     Error.error("Error 50: Too many arguments for a namespace change", exc=True)
                                 for arg in finished:
-                                    print("n")
-                                    print(repr(arg))
                                     ns = arg.split("[")[1]
                                     if ns == "globals()":
                                         ns = globals()
@@ -1880,8 +1877,6 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                                         namespace[0] = ns
                                     else:
                                         Error.error("Error 51: Invalid namespace placement", exc=True)
-                                    print(namespace)
-                                    print(ns)
                                 continue
                             if command.strip() == "--function":
                                 combined = []
