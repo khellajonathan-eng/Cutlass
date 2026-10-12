@@ -1649,7 +1649,7 @@ class Demo:
                     print(repr(target))
                     Map.Room.diffroom(into=target)
                 case ["terminal"]:
-                    print("=== Cutlass Terminal 2.1.0 ===")
+                    print("=== Cutlass Terminal 2.2.0 ===")
                     print("Type --help for commands.")
                     trunning = True
                     combined = []
@@ -1902,7 +1902,7 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                                 execmode = True
                                 continue
                             if command.strip() == "--updates":
-                                print("Latest Update: Added new --source command to execute the code inside the file.")
+                                print("Latest Update: Function can now take parameters.")
                                 continue
                             if command.strip() == "--source":
                                 filepath = finished[0]
