@@ -1938,8 +1938,9 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                             tlogs[(command)] = (t, finished)
                         except StopIteration:
                             for v in tempvars:
-                                del tvars[v]
-                                tempvars.pop(tempvars.index(v))
+                                if v in tvars:
+                                    del tvars[v]
+                                    tempvars.pop(tempvars.index(v))
                             execmode = False
                         except Exception as e:
                             #raise
