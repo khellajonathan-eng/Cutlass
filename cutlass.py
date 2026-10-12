@@ -1,6 +1,6 @@
 import random, sys, time, ast, os, pickle, threading, shlex, builtins, inspect
 from copy import deepcopy
-v2 = "Removed a debug statement." #x.x.V.x
+v2 = "Fixed a parenthesis bug." #x.x.V.x
 v3 = "Increased the terminal's usability and flexibility largely. Again. Please note that updates regarding the terminal will not be shown here anymore, only inside the terminal itself." #x.V.x.x
 v4 = "Now in beta testing."#V.x.x.x
 vs = [v2, v3, v4][::-1]
@@ -1318,7 +1318,7 @@ class Map:
 class System:
     """The system for general management."""
     name = "Cutlass"
-    version = "1.8.2"
+    version = "1.8.3"
     state = "Beta"
     @classmethod
     def credits(cls):
@@ -1962,4 +1962,4 @@ class SoL:
             return data
         except Exception as e:
             Error.error(f"Error 6: {e}", errtype="Unknown")
-            return {"Error happened.": True)
+            return {"Error happened.": True}
