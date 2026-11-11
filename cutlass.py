@@ -1683,7 +1683,7 @@ class Demo:
                         def __call__(self):
                             return self.internals
                     if not tcmd:
-                        print("=== Cutlass Terminal 3.0.0 ===")
+                        print("=== Cutlass Terminal 3.0.1 ===")
                         print("Type --help for commands.")
                     def toggle(obj):
                         return not obj
@@ -1973,7 +1973,6 @@ Note: For this category, any commands in arguments must be identified by ?>, for
 --attribute: Can only be used for arguments. You use it like this: Object-Attribute--attribute. The object is where you are getting the attribute, the attribute is the attribute to get, and the --attribute tells the terminal to look for an attribute of an object.
 Note for --attribute: You can use !module_level as the object, but you can also simply just do a variable since it does the same thing. The same is for --method, but just use the standard command system.
 --method: Same use as attribute except it can only be a method and it is called instantly. Same use as attribute, Object-Method--method.
---moduleattr: A lot like --attribute but accesses a module's attributes. Please note that it only accesses the module's variables and is incapable of using multiple origins and calling a function (in python. for the standard -function command, do -[modulename]-[function])
 Note for --attribute again: --attribute has a lot more complex things, but I want you, the user, to figure them out ;)
 --print: Simply prints out the given arguments.
 --input: Changes the input prompt.
@@ -2084,7 +2083,7 @@ You can use !argument to have it exempt from parsing to a variable. It will be t
                                 execmode = True
                                 continue
                             if command.strip() == "--updates":
-                                print("Latest Update: Completley revamped --function system, added module system, internal and mutual systems, and so on.")                              
+                                print("Latest Update: Removed --moduleattr from the help menu, as it has been replaced by --attribute.")                              
                                 continue
                             if command.strip() == "--debug":
                                 debug = toggle(debug)
